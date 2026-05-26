@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm hoa quả</title>
+    <link rel="stylesheet" href="css/form.css">
+    <script src="js/jquery-4.0.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>THÊM SẢN PHẨM HOA QUẢ</h1>
+        <form id="fruitForm">
+            <div class="form-group">
+                <label>Mã sản phẩm</label>
+                <input type="text" id="fruitId">
+                <small class="error" id="errorId"></small>
+            </div>
+            <div class="form-group">
+                <label>Tên sản phẩm</label>
+                <input type="text" id="fruitName">
+                <small class="error" id="errorName"></small>
+            </div>
+            <div class="form-group">
+                <label>Giá</label>
+                <input type="text" id="price">
+                <small class="error" id="errorPrice"></small>
+            </div>
+            <div class="form-group">
+                <label>Số lượng</label>
+                <input type="text" id="quantity">
+                <small class="error" id="errorQuantity"></small>
+            </div>
+            <div class="form-group">
+                <label>Loại sản phẩm</label>
+                <select id="category">
+                    <option>cam</option>
+                    <option>chanhleo</option>
+                    <option>cherry</option>
+                    <option>chomchom</option>
+                    <option>dao</option>
+                    <option>dautay</option>
+                    <option>dua</option>
+                    <option>duahau</option>
+                    <option>hongxiem</option>
+                    <option>kiwi</option>
+                    <option>mangcut</option>
+                    <option>mit</option>
+                    <option>na</option>
+                    <option>nho</option>
+                    <option>oi</option>
+                    <option>saurieng</option>
+                    <option>tao</option>
+                    <option>thanglong</option>
+                    <option>vai</option>
+                    <option>xoai</option>                    
+                </select>
+                <small class="error" id="errorCategory"></small>
+            </div>
+            <div class="button-group">
+                <button type="submit" class="save-btn">Lưu sản phẩm</button>
+                <button type="reset" class="reset-btn">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
